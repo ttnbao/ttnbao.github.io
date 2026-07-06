@@ -182,6 +182,13 @@ h3 {
   margin-bottom: 28px;
 }
 
+.section-intro {
+  margin: 14px 0 0;
+  color: #344552;
+  font-size: 1.03rem;
+  line-height: 1.6;
+}
+
 .section-body p:last-child,
 .publication p:last-child,
 .service-grid p:last-child,
