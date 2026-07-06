@@ -183,7 +183,6 @@ h3 {
 }
 
 .section-body p:last-child,
-.news-item p:last-child,
 .publication p:last-child,
 .service-grid p:last-child,
 .research-grid p:last-child {
@@ -214,32 +213,9 @@ h3 {
 
 .research-grid p,
 .service-grid p,
-.news-item p,
 .publication p,
 .note {
   color: var(--muted);
-}
-
-.news-list {
-  display: grid;
-  gap: 12px;
-}
-
-.news-item {
-  display: grid;
-  grid-template-columns: 84px minmax(0, 1fr);
-  gap: 18px;
-  padding: 16px 0;
-  border-bottom: 1px solid var(--line);
-}
-
-.news-item:first-child {
-  padding-top: 0;
-}
-
-.news-item time {
-  color: var(--teal-dark);
-  font-weight: 760;
 }
 
 .project-list {
@@ -406,11 +382,6 @@ h3 {
 
   .hero-actions {
     gap: 10px;
-  }
-
-  .news-item {
-    grid-template-columns: 1fr;
-    gap: 4px;
   }
 
   .project-card {
