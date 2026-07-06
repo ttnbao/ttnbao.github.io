@@ -184,6 +184,11 @@ h3 {
   font-size: 1.05rem;
 }
 
+.intro h2 {
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
+  line-height: 1.28;
+}
+
 .section-body p:last-child,
 .news-item p:last-child,
 .publication p:last-child,
