@@ -15,6 +15,9 @@ plugins:
   - jekyll-seo-tag
 
 exclude:
+  - .bundle
   - Gemfile
   - Gemfile.lock
   - README.md
+  - vendor
+  - _site
