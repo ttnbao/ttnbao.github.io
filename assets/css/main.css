@@ -100,11 +100,12 @@ p {
 }
 
 h1 {
-  margin-bottom: 18px;
-  font-size: clamp(3rem, 8vw, 5.6rem);
-  line-height: 0.98;
+  margin-bottom: 16px;
+  font-size: clamp(2.35rem, 5.2vw, 4.25rem);
+  line-height: 1.04;
   letter-spacing: 0;
   color: var(--navy);
+  white-space: nowrap;
 }
 
 h2 {
@@ -408,6 +409,10 @@ h3 {
 @media (max-width: 620px) {
   body {
     font-size: 15px;
+  }
+
+  h1 {
+    font-size: clamp(2rem, 10vw, 2.75rem);
   }
 
   .quick-facts,
