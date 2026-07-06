@@ -11,10 +11,10 @@ research_projects:
     image: /assets/research/uav-smart-farming.png
     alt: Illustration of UAV-assisted smart farming wireless networks
     text: Sustainable task offloading and trajectory-aware optimization in UAV-assisted smart agriculture and edge networks, using multi-agent reinforcement learning, action masking, and information freshness objectives.
-  - title: Agentic Learning for 6G Network Optimization
+  - title: Agentic and Quantum Machine Learning for 6G
     image: /assets/research/agentic-ran-slicing.png
     alt: Illustration of agentic learning for RAN slicing
-    text: Agentic multi-agent and quantum-inspired deep reinforcement learning for energy-efficient 6G systems, RAN slicing, beamforming, and joint phase-shift optimization.
+    text: Agentic multi-agent reinforcement learning and quantum machine learning for energy-efficient 6G systems, RAN slicing, beamforming, and joint phase-shift optimization.
 
 publications:
   - venue: IEEE Wireless Communications Letters, early access, 2026
