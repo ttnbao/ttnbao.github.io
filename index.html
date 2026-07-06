@@ -3,12 +3,12 @@ layout: default
 title: Academic Homepage
 ---
 
-<section class="hero">
-  <div class="hero-copy">
+<section class="profile-hero">
+  <div class="profile-copy">
     <p class="eyebrow">{{ site.author.role }}</p>
     <h1>{{ site.author.name }}</h1>
     <p class="lead">
-      AI-enabled 6G wireless networks, secure communications, RIS-assisted systems,
+      AI-enabled wireless networks, secure communications, RIS-assisted systems,
       UAV and non-terrestrial networks, and reinforcement learning for resource optimization.
     </p>
     <div class="hero-actions" aria-label="Primary links">
@@ -17,15 +17,15 @@ title: Academic Homepage
       <a class="button" href="{{ site.linkedin }}">LinkedIn</a>
     </div>
   </div>
-  <figure class="hero-media">
+  <figure class="profile-visual">
     <img src="{{ '/assets/research-network.png' | relative_url }}" alt="Abstract visual of AI-enabled wireless networks" />
   </figure>
 </section>
 
-<section class="section intro" aria-labelledby="bio-title">
+<section class="section intro" id="about" aria-labelledby="bio-title">
   <div class="section-heading">
-    <p class="eyebrow">Bio</p>
-    <h2 id="bio-title">Wireless systems research across academia and industry</h2>
+    <p class="eyebrow">About</p>
+    <h2 id="bio-title">Wireless systems research across academia, industry, and standards.</h2>
   </div>
   <div class="section-body">
     <p>
@@ -44,10 +44,25 @@ title: Academic Homepage
   </div>
 </section>
 
+<section class="section" id="news" aria-labelledby="news-title">
+  <div class="section-heading">
+    <p class="eyebrow">Updates</p>
+    <h2 id="news-title">News</h2>
+  </div>
+  <div class="news-list">
+    {% for item in site.data.profile.news %}
+      <article class="news-item">
+        <time>{{ item.date }}</time>
+        <p>{{ item.text }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
 <section class="section" id="research" aria-labelledby="research-title">
   <div class="section-heading">
     <p class="eyebrow">Research</p>
-    <h2 id="research-title">Research projects</h2>
+    <h2 id="research-title">Featured research directions</h2>
   </div>
   <div>
     <div class="project-list">
@@ -87,7 +102,7 @@ title: Academic Homepage
         </article>
       {% endfor %}
     </div>
-    <p class="note">Full list: 13 journal articles, 13 conference papers, 13 patents, and 5 manuscripts under review.</p>
+    <p class="note">A complete publication list is available through Google Scholar.</p>
   </div>
 </section>
 

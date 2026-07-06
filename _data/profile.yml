@@ -1,3 +1,13 @@
+news:
+  - date: 2026
+    text: Started as a Research Associate at the University of Ottawa, working on quantum algorithms over networking and industry collaboration with Ericsson Canada.
+  - date: 2026
+    text: Published work on cascaded far-to-near-field secure communications in IEEE Wireless Communications Letters.
+  - date: 2025
+    text: Presented RIS-assisted secure satellite communication research at IEEE ICC 2025.
+  - date: 2024
+    text: Received a Best Paper Award at IEEE PacRim 2024 for work on RIS-empowered satellite communications.
+
 research_projects:
   - title: RIS-assisted Secure Non-Terrestrial Networks
     image: /assets/research/ris-ntn-security.png

@@ -68,18 +68,17 @@ a {
   color: var(--teal-dark);
 }
 
-.hero {
+.profile-hero {
   display: grid;
-  grid-template-columns: minmax(0, 0.92fr) minmax(360px, 1.08fr);
-  gap: 48px;
+  grid-template-columns: minmax(0, 1.05fr) minmax(300px, 0.95fr);
+  gap: 42px;
   align-items: center;
   max-width: var(--max);
-  min-height: calc(100vh - 68px);
   margin: 0 auto;
-  padding: 54px 24px 42px;
+  padding: 58px 24px 54px;
 }
 
-.hero-copy {
+.profile-copy {
   max-width: 680px;
 }
 
@@ -101,7 +100,7 @@ p {
 
 h1 {
   margin-bottom: 16px;
-  font-size: clamp(2.35rem, 5.2vw, 4.25rem);
+  font-size: clamp(2.35rem, 4.2vw, 3.65rem);
   line-height: 1.04;
   letter-spacing: 0;
   color: var(--navy);
@@ -126,7 +125,7 @@ h3 {
 .lead {
   max-width: 620px;
   color: #324250;
-  font-size: clamp(1.08rem, 2vw, 1.32rem);
+  font-size: clamp(1.03rem, 1.5vw, 1.18rem);
   line-height: 1.58;
 }
 
@@ -156,18 +155,18 @@ h3 {
   color: #fff;
 }
 
-.hero-media {
+.profile-visual {
   margin: 0;
 }
 
-.hero-media img {
+.profile-visual img {
   display: block;
   width: 100%;
-  aspect-ratio: 1.28 / 1;
+  aspect-ratio: 16 / 10;
   object-fit: cover;
   border: 1px solid var(--line);
   border-radius: 8px;
-  box-shadow: 0 24px 70px rgba(28, 49, 61, 0.13);
+  box-shadow: 0 14px 42px rgba(28, 49, 61, 0.1);
 }
 
 .section {
@@ -186,6 +185,7 @@ h3 {
 }
 
 .section-body p:last-child,
+.news-item p:last-child,
 .publication p:last-child,
 .service-grid p:last-child,
 .research-grid p:last-child,
@@ -219,10 +219,33 @@ h3 {
 
 .research-grid p,
 .service-grid p,
+.news-item p,
 .publication p,
 .timeline p,
 .note {
   color: var(--muted);
+}
+
+.news-list {
+  display: grid;
+  gap: 12px;
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 84px minmax(0, 1fr);
+  gap: 18px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.news-item:first-child {
+  padding-top: 0;
+}
+
+.news-item time {
+  color: var(--teal-dark);
+  font-weight: 760;
 }
 
 .project-list {
@@ -346,23 +369,23 @@ h3 {
     padding-bottom: 3px;
   }
 
-  .hero,
+  .profile-hero,
   .section,
   .contact {
     grid-template-columns: 1fr;
   }
 
-  .hero {
+  .profile-hero {
     gap: 30px;
     min-height: auto;
     padding-top: 42px;
   }
 
-  .hero-media {
+  .profile-visual {
     order: -1;
   }
 
-  .hero-media img {
+  .profile-visual img {
     aspect-ratio: 16 / 10;
   }
 
@@ -402,6 +425,11 @@ h3 {
 
   .hero-actions {
     gap: 10px;
+  }
+
+  .news-item {
+    grid-template-columns: 1fr;
+    gap: 4px;
   }
 
   .project-card {
