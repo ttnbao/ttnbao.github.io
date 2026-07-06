@@ -227,10 +227,17 @@ h3 {
 .research-grid article,
 .service-grid article,
 .timeline article,
-.publication {
+.publication,
+.project-card {
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 8px;
+}
+
+.research-grid article,
+.service-grid article,
+.timeline article,
+.publication {
   padding: 20px;
 }
 
@@ -240,6 +247,41 @@ h3 {
 .timeline p,
 .note {
   color: var(--muted);
+}
+
+.project-list {
+  display: grid;
+  gap: 18px;
+}
+
+.project-card {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 22px;
+  align-items: center;
+  overflow: hidden;
+  padding: 0;
+}
+
+.project-card img {
+  display: block;
+  width: 100%;
+  height: 168px;
+  object-fit: cover;
+  background: var(--soft);
+}
+
+.project-card div {
+  padding: 18px 20px 18px 0;
+}
+
+.project-card p {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.compact-grid {
+  margin-top: 22px;
 }
 
 .publication-list {
@@ -357,6 +399,10 @@ h3 {
   .contact-links {
     justify-content: flex-start;
   }
+
+  .project-card {
+    grid-template-columns: 180px minmax(0, 1fr);
+  }
 }
 
 @media (max-width: 620px) {
@@ -377,5 +423,18 @@ h3 {
 
   .hero-actions {
     gap: 10px;
+  }
+
+  .project-card {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card img {
+    height: auto;
+    aspect-ratio: 4 / 3;
+  }
+
+  .project-card div {
+    padding: 18px;
   }
 }

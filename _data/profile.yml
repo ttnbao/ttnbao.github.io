@@ -1,3 +1,21 @@
+research_projects:
+  - title: RIS-assisted Secure Non-Terrestrial Networks
+    image: /assets/research/ris-ntn-security.png
+    alt: Illustration of RIS-assisted secure non-terrestrial wireless networks
+    text: Secure resource allocation and intelligent RIS phase configuration for satellite and non-terrestrial wireless systems, including generative AI and reinforcement learning approaches.
+  - title: UAV-assisted Smart Farming Communications
+    image: /assets/research/uav-smart-farming.png
+    alt: Illustration of UAV-assisted smart farming wireless networks
+    text: Sustainable and secure task offloading in UAV-assisted smart agriculture networks using multi-agent deep reinforcement learning, action masking, and information freshness objectives.
+  - title: Agentic DRL for RAN Slicing and Optimization
+    image: /assets/research/agentic-ran-slicing.png
+    alt: Illustration of agentic learning for RAN slicing
+    text: Agentic multi-agent learning and quantum-inspired deep reinforcement learning for energy-efficient communication systems, RAN slicing, beamforming, and phase-shift optimization.
+  - title: Physical Layer Secrecy and Outage Analysis
+    image: /assets/research/physical-layer-secrecy.png
+    alt: Illustration of physical layer secrecy in wireless communications
+    text: Analytical and learning-based secrecy outage performance evaluation for UAV, massive MIMO, random beamforming, and ground-to-air wireless transmission systems.
+
 research_interests:
   - title: AI for 6G Networks
     text: Machine learning, deep reinforcement learning, and agentic learning for future wireless systems.
