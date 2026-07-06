@@ -26,16 +26,6 @@ research_projects:
     alt: Illustration of physical layer secrecy in wireless communications
     text: Analytical and learning-based secrecy outage performance evaluation for UAV, massive MIMO, random beamforming, and ground-to-air wireless transmission systems.
 
-research_interests:
-  - title: AI for 6G Networks
-    text: Machine learning, deep reinforcement learning, and agentic learning for future wireless systems.
-  - title: Secure Communications
-    text: Physical layer security, secrecy outage analysis, and secure resource allocation.
-  - title: RIS and ISAC
-    text: RIS-assisted communications, beamforming, phase configuration, and integrated sensing and communications.
-  - title: UAV and NTN Systems
-    text: UAV-assisted smart farming networks, satellite communications, and non-terrestrial network security.
-
 publications:
   - venue: IEEE Wireless Communications Letters, early access, 2026
     title: Sum Secrecy Rate Maximization for Cascaded Far-to-Near-Field Communications

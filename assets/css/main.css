@@ -280,10 +280,6 @@ h3 {
   color: var(--muted);
 }
 
-.compact-grid {
-  margin-top: 22px;
-}
-
 .publication-list {
   display: grid;
   gap: 12px;
