@@ -28,4 +28,4 @@ bundle exec jekyll serve
 - `assets/js/main.js` - current year helper
 - `assets/research-network.png` - homepage visual
 
-Add Google Scholar, LinkedIn, ORCID, and GitHub links once those public URLs are finalized.
+Add ORCID and GitHub links once those public URLs are finalized.
