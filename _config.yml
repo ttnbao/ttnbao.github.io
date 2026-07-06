@@ -1,0 +1,20 @@
+title: Tingnan Bao
+description: Academic homepage for Dr. Tingnan Bao, Research Associate at the University of Ottawa.
+url: ""
+baseurl: ""
+email: btingnan@gmail.com
+cv: /assets/Tingnan_Bao_CV.pdf
+
+author:
+  name: Dr. Tingnan Bao
+  role: Research Associate, University of Ottawa
+  location: Ottawa, ON, Canada
+
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

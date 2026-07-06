@@ -1,0 +1,134 @@
+---
+layout: default
+title: Academic Homepage
+---
+
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">{{ site.author.role }}</p>
+    <h1>{{ site.author.name }}</h1>
+    <p class="lead">
+      AI-enabled 6G wireless networks, secure communications, RIS-assisted systems,
+      UAV and non-terrestrial networks, and reinforcement learning for resource optimization.
+    </p>
+    <div class="hero-actions" aria-label="Primary links">
+      <a class="button primary" href="{{ site.cv | relative_url }}">Download CV</a>
+      <a class="button" href="mailto:{{ site.email }}">Email</a>
+    </div>
+    <dl class="quick-facts" aria-label="Academic profile highlights">
+      <div>
+        <dt>Publications</dt>
+        <dd>26 refereed papers</dd>
+      </div>
+      <div>
+        <dt>Patents</dt>
+        <dd>13 applications</dd>
+      </div>
+      <div>
+        <dt>Recognition</dt>
+        <dd>IEEE Senior Member</dd>
+      </div>
+    </dl>
+  </div>
+  <figure class="hero-media">
+    <img src="{{ '/assets/research-network.png' | relative_url }}" alt="Abstract visual of AI-enabled wireless networks" />
+  </figure>
+</section>
+
+<section class="section intro" aria-labelledby="bio-title">
+  <div class="section-heading">
+    <p class="eyebrow">Bio</p>
+    <h2 id="bio-title">Wireless systems research across academia and industry</h2>
+  </div>
+  <div class="section-body">
+    <p>
+      Dr. Tingnan Bao is a Research Associate at the University of Ottawa. His research
+      focuses on AI and machine learning for 6G technologies, including secure UAV-assisted
+      communications, satellite and non-terrestrial networks, reconfigurable intelligent
+      surfaces, and reinforcement learning for task offloading and resource allocation.
+    </p>
+    <p>
+      He received his Ph.D. in Electrical and Computer Engineering from the University of
+      Victoria, his M.Sc. in Information Technology from KTH Royal Institute of Technology,
+      and his B.Sc. in Electrical Engineering from Liaoning Technical University. His
+      experience spans university research, industrial research at Lenovo Research, 3GPP RAN
+      standardization, and RAN engineering at Ericsson China.
+    </p>
+  </div>
+</section>
+
+<section class="section" id="research" aria-labelledby="research-title">
+  <div class="section-heading">
+    <p class="eyebrow">Research</p>
+    <h2 id="research-title">Research interests</h2>
+  </div>
+  <div class="research-grid">
+    {% for item in site.data.profile.research_interests %}
+      <article>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.text }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section" id="publications" aria-labelledby="pub-title">
+  <div class="section-heading">
+    <p class="eyebrow">Selected work</p>
+    <h2 id="pub-title">Publications</h2>
+  </div>
+  <div>
+    <div class="publication-list">
+      {% for paper in site.data.profile.publications %}
+        <article class="publication">
+          <p class="venue">{{ paper.venue }}</p>
+          <h3>{{ paper.title }}</h3>
+          <p>{{ paper.authors }}</p>
+        </article>
+      {% endfor %}
+    </div>
+    <p class="note">Full list: 13 journal articles, 13 conference papers, 13 patents, and 5 manuscripts under review.</p>
+  </div>
+</section>
+
+<section class="section" id="experience" aria-labelledby="experience-title">
+  <div class="section-heading">
+    <p class="eyebrow">Trajectory</p>
+    <h2 id="experience-title">Experience and education</h2>
+  </div>
+  <div class="timeline">
+    {% for role in site.data.profile.experience %}
+      <article>
+        <span>{{ role.period }}</span>
+        <h3>{{ role.title }}</h3>
+        <p>{{ role.text }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section" id="service" aria-labelledby="service-title">
+  <div class="section-heading">
+    <p class="eyebrow">Academic community</p>
+    <h2 id="service-title">Leadership, service, and recognition</h2>
+  </div>
+  <div class="service-grid">
+    {% for item in site.data.profile.service %}
+      <article>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.text }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section contact" id="contact" aria-labelledby="contact-title">
+  <div>
+    <p class="eyebrow">Contact</p>
+    <h2 id="contact-title">Open to research collaboration in AI-enabled wireless networks.</h2>
+  </div>
+  <div class="contact-links">
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    <a href="{{ site.cv | relative_url }}">Curriculum Vitae</a>
+  </div>
+</section>

@@ -1,0 +1,53 @@
+research_interests:
+  - title: AI for 6G Networks
+    text: Machine learning, deep reinforcement learning, and agentic learning for future wireless systems.
+  - title: Secure Communications
+    text: Physical layer security, secrecy outage analysis, and secure resource allocation.
+  - title: RIS and ISAC
+    text: RIS-assisted communications, beamforming, phase configuration, and integrated sensing and communications.
+  - title: UAV and NTN Systems
+    text: UAV-assisted smart farming networks, satellite communications, and non-terrestrial network security.
+
+publications:
+  - venue: IEEE Wireless Communications Letters, early access, 2026
+    title: Sum Secrecy Rate Maximization for Cascaded Far-to-Near-Field Communications
+    authors: T. Bao, M. Elsayed, P. Iturria-Rivera, Y. Ozcan, M. Bavand, M. Erol-Kantarci
+  - venue: IEEE Transactions on Network Science and Engineering, 2026
+    title: Intelligent Discrete RIS Phase Configuration in Secure Non-Terrestrial Networks
+    authors: T. Bao, M. Elsayed, P. Iturria-Rivera, Y. Ozcan, M. Bavand, M. Erol-Kantarci
+  - venue: IEEE Transactions on Network and Service Management, 2025
+    title: Sustainable Task Offloading in Secure UAV-assisted Smart Farm Networks
+    authors: T. Bao, A. Syed, W. S. Kennedy, M. Erol-Kantarci
+  - venue: IEEE Transactions on Vehicular Technology, 2024
+    title: SDOR Analysis for Task Offloading in Smart Farm Secure UAV-Assisted Communication Systems
+    authors: T. Bao, A. Syed, W. S. Kennedy, M. Erol-Kantarci
+  - venue: IEEE Transactions on Aerospace and Electronic Systems, 2022
+    title: Secrecy Outage Performance Analysis of UAV-assisted Relay Communication Systems
+    authors: T. Bao, H. Wang, W.-J. Wang, H.-C. Yang, M. O. Hasna
+  - venue: IEEE Wireless Communications Letters, 2020
+    title: Secrecy Outage Performance of Ground-to-Air Communications with Multiple Aerial Eavesdroppers
+    authors: T. Bao, J. Zhu, H.-C. Yang, M. O. Hasna
+
+experience:
+  - period: 2026 - Present
+    title: Research Associate, University of Ottawa
+    text: Research on quantum algorithms over networking and Mitacs Accelerate collaboration with Ericsson Canada.
+  - period: 2023 - 2026
+    title: Research Fellow, University of Ottawa
+    text: AI and machine learning for 6G, secure UAV smart farming systems, satellite communications, and agentic multi-agent DRL.
+  - period: 2020 - 2023
+    title: Advisory Researcher, Lenovo Research
+    text: RIS, AI for physical layer technologies, patent strategy, and 3GPP RAN standardization.
+  - period: 2016 - 2020
+    title: Ph.D., University of Victoria
+    text: Electrical and Computer Engineering, with research on UAV communications, massive MIMO, and physical layer security.
+
+service:
+  - title: Leadership
+    text: Workshop Chair for IoTIR 2026 and active collaborator on Mitacs projects with Ericsson and Nokia Bell Labs.
+  - title: Technical Service
+    text: TPC member for IEEE GLOBECOM, IEEE ICC, IEEE PIMRC, IEEE PacRim, and IUI; reviewer for 100+ IEEE journal manuscripts.
+  - title: Standards
+    text: 3GPP RAN delegate from 2021 to 2023 and participant in IMT-2030 (6G) Promotion Group.
+  - title: Awards
+    text: Best Paper Awards at IEEE PacRim 2024 and 2019; IEEE ComSoc exemplary reviewer recognition; CIE Young Scientist.
