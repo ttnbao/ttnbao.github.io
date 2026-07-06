@@ -170,13 +170,16 @@ h3 {
 }
 
 .section {
-  display: grid;
-  grid-template-columns: 0.7fr 1.3fr;
-  gap: 48px;
+  display: block;
   max-width: var(--max);
   margin: 0 auto;
-  padding: 76px 24px;
+  padding: 68px 24px;
   border-top: 1px solid var(--line);
+}
+
+.section-heading {
+  max-width: 780px;
+  margin-bottom: 28px;
 }
 
 .section-body p:last-child,
@@ -291,7 +294,7 @@ h3 {
 }
 
 .contact {
-  align-items: center;
+  display: block;
   background: var(--navy);
   color: #fff;
   max-width: none;
@@ -306,9 +309,9 @@ h3 {
 
 .contact-links {
   display: flex;
-  justify-content: flex-end;
   flex-wrap: wrap;
   gap: 12px;
+  margin-top: 24px;
 }
 
 .contact-links a {
@@ -343,9 +346,7 @@ h3 {
     padding-bottom: 3px;
   }
 
-  .profile-hero,
-  .section,
-  .contact {
+  .profile-hero {
     grid-template-columns: 1fr;
   }
 
@@ -364,7 +365,6 @@ h3 {
   }
 
   .section {
-    gap: 26px;
     padding-top: 56px;
     padding-bottom: 56px;
   }
