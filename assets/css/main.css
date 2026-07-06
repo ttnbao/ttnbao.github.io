@@ -293,6 +293,13 @@ h3 {
   margin: 18px 0 0;
 }
 
+.note a {
+  color: var(--teal-dark);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .contact {
   display: block;
   background: var(--navy);
