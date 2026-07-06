@@ -156,31 +156,6 @@ h3 {
   color: #fff;
 }
 
-.quick-facts {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-  margin: 0;
-}
-
-.quick-facts div {
-  border-left: 3px solid var(--teal);
-  padding-left: 12px;
-}
-
-.quick-facts dt {
-  color: var(--muted);
-  font-size: 0.78rem;
-  font-weight: 760;
-  text-transform: uppercase;
-}
-
-.quick-facts dd {
-  margin: 2px 0 0;
-  color: var(--navy);
-  font-weight: 720;
-}
-
 .hero-media {
   margin: 0;
 }
@@ -415,7 +390,6 @@ h3 {
     font-size: clamp(2rem, 10vw, 2.75rem);
   }
 
-  .quick-facts,
   .research-grid,
   .service-grid {
     grid-template-columns: 1fr;
