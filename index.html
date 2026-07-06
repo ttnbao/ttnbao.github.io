@@ -106,22 +106,6 @@ title: Academic Homepage
   </div>
 </section>
 
-<section class="section" id="experience" aria-labelledby="experience-title">
-  <div class="section-heading">
-    <p class="eyebrow">Trajectory</p>
-    <h2 id="experience-title">Experience and education</h2>
-  </div>
-  <div class="timeline">
-    {% for role in site.data.profile.experience %}
-      <article>
-        <span>{{ role.period }}</span>
-        <h3>{{ role.title }}</h3>
-        <p>{{ role.text }}</p>
-      </article>
-    {% endfor %}
-  </div>
-</section>
-
 <section class="section" id="service" aria-labelledby="service-title">
   <div class="section-heading">
     <p class="eyebrow">Academic community</p>

@@ -188,8 +188,7 @@ h3 {
 .news-item p:last-child,
 .publication p:last-child,
 .service-grid p:last-child,
-.research-grid p:last-child,
-.timeline p:last-child {
+.research-grid p:last-child {
   margin-bottom: 0;
 }
 
@@ -202,7 +201,6 @@ h3 {
 
 .research-grid article,
 .service-grid article,
-.timeline article,
 .publication,
 .project-card {
   background: var(--panel);
@@ -212,7 +210,6 @@ h3 {
 
 .research-grid article,
 .service-grid article,
-.timeline article,
 .publication {
   padding: 20px;
 }
@@ -221,7 +218,6 @@ h3 {
 .service-grid p,
 .news-item p,
 .publication p,
-.timeline p,
 .note {
   color: var(--muted);
 }
@@ -301,19 +297,6 @@ h3 {
 
 .note {
   margin: 18px 0 0;
-}
-
-.timeline {
-  display: grid;
-  gap: 12px;
-}
-
-.timeline span {
-  display: block;
-  margin-bottom: 8px;
-  color: var(--teal-dark);
-  font-size: 0.88rem;
-  font-weight: 760;
 }
 
 .contact {
