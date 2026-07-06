@@ -26,7 +26,6 @@ bundle exec jekyll serve
 - `index.html` - homepage template
 - `assets/css/main.css` - responsive styling
 - `assets/js/main.js` - current year helper
-- `assets/Tingnan_Bao_CV.pdf` - downloadable CV
 - `assets/research-network.png` - homepage visual
 
 Add Google Scholar, LinkedIn, ORCID, and GitHub links once those public URLs are finalized.
